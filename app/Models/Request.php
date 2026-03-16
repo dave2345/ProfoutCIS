@@ -63,6 +63,10 @@ class Request extends Model
         'senior_approval_at' => 'datetime',
         'manager_approval_at' => 'datetime',
         'payment_processed_at' => 'datetime',
+        'paid_at' => 'datetime',
+        'first_approved_at' => 'datetime',
+        'second_approved_at' => 'datetime',
+        'third_approved_at' => 'datetime',
     ];
 
     public function requester()
